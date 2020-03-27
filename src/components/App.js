@@ -4,6 +4,7 @@ import TaskListContextProvider from '../context/TaskListContext'
 import TaskList from './TaskList'
 import TaskForm from './TaskForm'
 import Header from './Header'
+import Footer from './Footer'
 const App = () => {
     return (
         <TaskListContextProvider>
@@ -15,6 +16,7 @@ const App = () => {
                         <TaskList />
                     </div>
                 </div>
+                <Footer />
             </div>
         </TaskListContextProvider>
     )
